@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fin</string>
+    <string name="str_login">Login</string>
+    <string name="str_enter_username">Enter username:</string>
+    <string name="str_enter_password">Enter password:</string>
+    <string name="str_please_enter_username">Please enter username</string>
+    <string name="str_should_contain_ten">Username must contain 10 characters</string>
+    <string name="str_please_enter_password">Please enter password</string>
+    <string name="str_password_contain">Password must contain 7 characters</string>
+    <string name="str_must_contain_alphabet">Password must contain one uppercase alphabet</string>
+    <string name="str_must_contain_special_char">Password must contain one special character</string>
+    <string name="str_must_contain_numbers">Password must contain numbers</string>
+    <string name="str_enter_username_hint">Johndoecom</string>
+    <string name="str_password_hint">Abc@123</string>
+    <string name="str_students">Students</string>
+    <string name="str_sort_by_name">Sort by name</string>
+    <string name="str_sort_by_age">Sort by age</string>
+    <string name="str_sort_by_city">Sort by city</string>
+</resources>

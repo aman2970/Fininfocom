@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/overflowMenu"
+        android:title=""
+        android:icon="@drawable/ic_menu"
+        app:showAsAction="always"
+        >
+        <menu>
+            <item
+                android:id="@+id/nameOption"
+                android:title="@string/str_sort_by_name" />
+            <item
+                android:id="@+id/ageOption"
+                android:title="@string/str_sort_by_age" />
+
+            <item
+                android:id="@+id/cityOption"
+                android:title="@string/str_sort_by_city" />
+
+        </menu>
+
+    </item>
+
+</menu>
