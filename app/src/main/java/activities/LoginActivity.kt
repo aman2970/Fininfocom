@@ -39,7 +39,13 @@ class LoginActivity : AppCompatActivity() {
                 binding.passwordEt.error = getString(R.string.str_must_contain_special_char)
             }else if(!containsNumber){
                 binding.passwordEt.error = getString(R.string.str_must_contain_numbers)
-            }else{
+            }else if(userNameInputText != getString(R.string.str_username)){
+                binding.userNameEt.error = getString(R.string.str_invalid_credentials)
+                binding.passwordEt.error = getString(R.string.str_invalid_credentials)
+            }else if(passwordInputText != getString(R.string.str_password)){
+                binding.userNameEt.error = getString(R.string.str_invalid_credentials)
+                binding.passwordEt.error = getString(R.string.str_invalid_credentials)
+            } else{
                 val intent = Intent(this, HomeActivity::class.java)
                 startActivity(intent)
                 prefs.edit().putBoolean(PREF_KEY_LOGIN,true).apply()

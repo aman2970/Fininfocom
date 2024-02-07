@@ -16,4 +16,10 @@
     <string name="str_sort_by_name">Sort by name</string>
     <string name="str_sort_by_age">Sort by age</string>
     <string name="str_sort_by_city">Sort by city</string>
+    <string name="str_name">name</string>
+    <string name="str_age">age</string>
+    <string name="str_city">city</string>
+    <string name="str_invalid_credentials">Invalid credentials</string>
+    <string name="str_username">Fininfocom</string>
+    <string name="str_password">Fin@123</string>
 </resources>
